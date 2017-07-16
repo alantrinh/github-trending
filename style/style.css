@@ -1,0 +1,57 @@
+body {
+    font-family: Helvetica, Arial, sans-serif
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 5px;
+    z-index: 1;
+}
+
+main {
+    overflow: hidden;
+}
+
+.sort:hover {
+    color: #0275d8;
+    cursor: pointer;
+}
+
+.repo {
+    border-top: 1px solid lightgrey;
+    padding: 15px 0px;
+}
+
+.headline a:hover {
+    color: #0275d8;
+    text-decoration: underline;
+}
+
+.repo-name {
+    font-weight: bold;
+}
+
+.star {
+    height: 16px;
+    width: 14px
+}
+
+.bottom-row {
+    vertical-align: middle;
+}
+
+.bottom-row a {
+    color: #373a3c;
+}
+
+.bottom-row a:hover {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+footer {
+    border-top: 1px solid lightgrey;
+}
